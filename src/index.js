@@ -36,6 +36,7 @@ function render() {
   }
 };
 
+
 let store = createStore(reducer)
 store.dispatch({ type: '@@INIT' });
 let button = document.getElementById('button')
